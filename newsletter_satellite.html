@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>B. 台股低軌衛星電子報 | 山姆有股事</title>
+<style>
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Arial,"Microsoft JhengHei",sans-serif; background:#01153e; min-height:100vh; padding:0 0 32px; }
+  .header { display:flex; align-items:center; gap:14px; padding:16px 16px 12px; }
+  .header img { height:60px; width:auto; display:block; border-radius:6px; flex-shrink:0; }
+  .header-title { font-size:22px; font-weight:700; color:#ffffff; letter-spacing:1px; line-height:1.3; }
+  .card { background:#ffffff; border-radius:14px; margin:8px 16px; overflow:hidden; box-shadow:0 4px 16px rgba(0,0,0,0.25); }
+  .card-header { background:#0d1b3e; padding:14px 18px; display:flex; align-items:center; gap:10px; }
+  .card-header-icon { font-size:20px; }
+  .card-header-title { font-size:16px; font-weight:700; color:#ffffff; letter-spacing:1px; }
+  .card-body { padding:16px 18px; }
+  .newsletter-desc { font-size:13px; color:#555; line-height:1.7; margin-bottom:12px; }
+  .section-block { margin-top:12px; }
+  .section-title { font-size:13px; font-weight:700; color:#1a3a6e; margin-bottom:4px; }
+  .section-text { font-size:13px; color:#555; line-height:1.7; }
+  .scope-title { font-size:13px; font-weight:700; color:#0d1b3e; margin-top:16px; margin-bottom:6px; }
+  .industry-table { width:100%; border-collapse:collapse; font-size:12px; }
+  .industry-table th { background:#0d1b3e; color:#fff; padding:7px 10px; text-align:left; font-weight:700; }
+  .industry-table td { padding:7px 10px; border-bottom:1px solid #f0f0f0; vertical-align:top; color:#444; line-height:1.6; }
+  .industry-table tr:last-child td { border-bottom:none; }
+  .industry-table td:first-child { font-weight:700; color:#0d1b3e; white-space:nowrap; width:1%; }
+  .industry-table tr:nth-child(even) { background:#fafafa; }
+  .footer { text-align:center; font-size:11px; color:#4a6a8a; margin-top:20px; padding:0 16px; line-height:1.8; }
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://raw.githubusercontent.com/shanyiyu-design/Financial-E-Newspaper/main/Banner_2.png?v=4"
+         alt="山姆有股事">
+    <span class="header-title">B. 台股低軌衛星電子報</span>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-header-icon">🛰️</span>
+      <span class="card-header-title">電子報特色介紹</span>
+    </div>
+    <div class="card-body">
+
+      <div class="newsletter-desc">
+        每日追蹤台灣低軌衛星供應鏈九大產業，透過 AI 自動分析新聞影響、評估衝擊程度，幫助你掌握全球太空商業化浪潮下的台股投資機會。
+      </div>
+
+      <div class="section-block">
+        <div class="section-title">📡 資料收集</div>
+        <div class="section-text">每日自動蒐集來自財經媒體（中央社、科技新報、iThome 等）、Google 新聞個股與產業搜尋，以及公開觀測站重大訊息公告，針對低軌衛星九大產業進行即時新聞彙整，確保覆蓋 SpaceX Starlink、Amazon Kuiper、Telesat 等全球衛星動態及台灣供應鏈消息。</div>
+      </div>
+
+      <div class="section-block">
+        <div class="section-title">🤖 AI 分析</div>
+        <div class="section-text">透過 AI 模型對每則新聞進行語意理解，萃取關鍵訊息、判斷與低軌衛星產業鏈的關聯性，並產出精簡摘要與市場總結，幫助快速掌握衛星產業動態。</div>
+      </div>
+
+      <div class="section-block">
+        <div class="section-title">🔥 衝擊評估</div>
+        <div class="section-text">每則新聞附有 1–5 級衝擊評分（🔥），衡量該消息對台股衛星供應鏈個股的潛在影響幅度，分數越高代表影響越大，正負面皆適用，幫助快速識別高關注度訊號。</div>
+      </div>
+
+      <div class="scope-title">📂 九大產業追蹤範疇</div>
+      <table class="industry-table">
+        <tr><th>產業</th><th>細分類</th></tr>
+        <tr><td>① 光通訊與雷射鏈路</td><td>星間雷射鏈路（ISL）、光收發模組、矽光子、雷射二極體、CPO</td></tr>
+        <tr><td>② 衛星結構件與熱管理</td><td>衛星本體結構件、輻射散熱板、VC均熱板、陶瓷基板、ITAR認證件</td></tr>
+        <tr><td>③ 衛星能源系統</td><td>太空太陽能板、電源調節模組（PCDU）、EPS、太空級電源供應</td></tr>
+        <tr><td>④ 航太PCB</td><td>任意層HDI高密板、耐輻射高可靠PCB、太空級多層基板</td></tr>
+        <tr><td>⑤ NTN晶片與控制IC</td><td>非地面網路（NTN）晶片、手機直連衛星（D2C）、波束成形IC、GNSS</td></tr>
+        <tr><td>⑥ GaN/GaAs功率元件</td><td>氮化鎵功率放大器（GaN SSPA）、砷化鎵射頻元件、磊晶代工、FEM</td></tr>
+        <tr><td>⑦ 射頻元件與天線</td><td>相位陣列天線、Ka/Ku-band 元件、毫米波濾波器、電掃天線</td></tr>
+        <tr><td>⑧ 地面站與UT終端</td><td>衛星閘道站、用戶終端（UT）、車載/船載終端、VSAT、衛星寬頻</td></tr>
+        <tr><td>⑨ 網通設備與連接器</td><td>衛星路由器、精密連接器、戶外網路線材、低軌衛星地面基礎設施</td></tr>
+      </table>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    © 山姆有股事　台股低軌衛星電子報<br>
+    本報告由 AI 自動產出，僅供參考，不構成投資建議
+  </div>
+
+</body>
+</html>
